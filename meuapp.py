@@ -31,11 +31,12 @@ if st.session_state.confirmação_botao_1:
                 TBM = 88.362 + (13.397 * peso) + (4.799* altura) - (5.677* idade)
                 st.write('Para o seu gênero: ', genero)  # Corrigido: texto mais claro
                 st.write('Sua Taxa de Metabolismo Basal é ', round(TBM, 2))  # Corrigido: 'Betavolismo' → 'Metabolismo'
-                st.success('Parabéns Eduuu! Vamos perder essa barriguinha!')  # Corrigido: 'barriquinha' → 'barriguinha'      
+                st.success('Calculado com Sucesso!!')  # Corrigido: 'barriquinha' → 'barriguinha'      
             elif genero == 'Feminino' and st.session_state.confirmação_botao_2:
                 TBM = 447.593 + (9.247* peso) + (3.098* altura) - (4.330* idade)
                 st.write('Para o seu gênero: ', genero)  # Corrigido: texto mais claro
                 st.write('Sua Taxa de Metabolismo Basal é ', round(TBM, 2))  # Corrigido: 'Betavolismo' → 'Metabolismo'
-                st.success('Foco, irmã!')  # Adicionada vírgula para melhor pontuação                                           
+                st.success('Calculado com Sucesso!!')  # Adicionada vírgula para melhor pontuação                                           
             else:   
+
                 st.error('Algo deu errado')  # Corrigido: mensagem mais apropriada
