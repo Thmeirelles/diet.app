@@ -1,8 +1,4 @@
 import streamlit as st
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
 st.title('DietApp') 
 st.write('Esta aplicação consegue te ajudar no cálculo de sua dieta.') 
 st.write('Antes de começar... Preciso de algumas informações suas.')
@@ -44,6 +40,7 @@ if st.session_state.confirmação_botao_1:
             else:   
 
                 st.error('Algo deu errado')
+
 
 
 
