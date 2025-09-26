@@ -1,5 +1,5 @@
 import streamlit as st
-st.image("imagens/banner.png")
+st.image("banner.png")
 st.write('Esta aplicação consegue te ajudar no cálculo de sua dieta.')
 st.write('Antes de começar... Preciso de algumas informações suas.')
 botao_1 = st.button('Vamos lá!')
@@ -135,4 +135,5 @@ if st.session_state.confirmação_botao_1:
 #with tab2:
 #    st.write("Análises detalhadas")
 #with tab3:
+
 #    st.slider("Parâmetro", 0, 100)
