@@ -9,7 +9,7 @@ peso = 0.00
 idade = 0
 #Funções----------------------------------------
 def aba_de_informacoes_pessoais (genero,altura,peso,idade):
-    with st.expander("🔍 Ver detalhes técnicos", expanded=False):  # Começa fechado
+    with st.expander("🔍 Suas Métricas", expanded=False):  # Começa fechado
         st.write('Digite seus dados:')  
         col1, col2, col3, col4 = st.columns(4)
         with col1:
@@ -137,3 +137,4 @@ if st.session_state.confirmação_botao_1:
 #with tab3:
 
 #    st.slider("Parâmetro", 0, 100)
+
